@@ -12,17 +12,20 @@ def menu():
      print("4 - Garrucha R$75,00")
      print("5 - 12 R$150,00")
      print("6 - Relatorio de compras")
+     print("7 - Excluir compra")
      print("0 - Sair")
      opcao = int (input())
      menuEscolha(opcao)
 
 def validaOpcaoCompra(opcao):
-    if (opcao < 0 or opcao > 6):
+    if (opcao < 0 or opcao > 7):
         print("Opcao invalida ,digite novamente")
         opcao = int(input())
         menuEscolha(opcao)
     elif (opcao == 6):
         imprimeRelatorio()
+    elif (opcao == 7):
+        excluiItens()
     elif (opcao == 0):
         print("Obrigado pelas compras")
         exit()
@@ -81,3 +84,20 @@ def salvaCompra(venda):
     arq.write(venda)
     arq.write("\r")
 
+def excluiItens():
+
+    arq = open("lojinha.txt", "r")
+    texto = arq.readlines()
+    print ("Selecione o ID que deseja excluir: ")
+
+    for x in texto:
+        print("ID - "+ str(texto.index(x)) + ": " + x)
+
+    opcao = int(input())
+    arq = open("lojinha.txt" , "w")
+
+    for linha in texto:
+        if linha.strip("") != texto[opcao]:
+            arq.write(linha)
+
+    exit()
