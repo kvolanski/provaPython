@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0bc4dac9-5ada-4c87-ae54-e5ee943a2387" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/calculadora.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/calculadora.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lojinha.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lojinha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lojinha.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lojinha.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/menuCalculadora.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/menuCalculadora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/menuPrincipal.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/menuPrincipal.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/lojinha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="104" column="33" lean-forward="true" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+            <state relative-caret-position="318">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -41,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/menuCalculadora.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="159">
               <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
@@ -236,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556315935608</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Corrigindo algumas coisas de novo">
+      <created>1556317104577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556317104577</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -261,7 +265,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,7 +306,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionando opção para excluir itens do arquivo" />
     <MESSAGE value="Corrigindo algumas coisas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrigindo algumas coisas" />
+    <MESSAGE value="Corrigindo algumas coisas de novo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrigindo algumas coisas de novo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,13 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/menuCalculadora.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/menuPrincipal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -362,10 +360,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/menuCalculadora.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lojinha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="104" column="33" lean-forward="true" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
+        <state relative-caret-position="318">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
         </state>
       </provider>
     </entry>

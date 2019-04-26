@@ -97,6 +97,10 @@ def excluiItens():
     arq.close()
 
     opcao = int(input())
+
+    while(opcao < 0 or opcao > len(texto) - 1):
+        opcao = int(input("Insira o valor novamente: "))
+
     arq = open("lojinha.txt" , "w")
 
 
