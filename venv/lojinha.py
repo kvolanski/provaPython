@@ -101,7 +101,8 @@ def excluiItens():
 
 
     for linha in texto:
-        if linha.strip("") != texto[opcao]:
+        strip = linha.strip("")
+        if strip != texto[opcao]:
             arq.write(linha)
 
     arq.close()

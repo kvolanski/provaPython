@@ -22,11 +22,11 @@ def opcoes(opcao,x,y):
         elif opcao == 4:
             calculadora.divisao(x,y)
         else:
-            print("Opção errada, selecione novamente")
+            print("Opcao errada, selecione novamente")
             pegaNumeros()
 
 def pegaNumeros():
-    print("Bem vindo ao calculadora do Kevin")
+    print("Bem vindo ao calculadora do Kevin e do Luiz")
     x = int(input("Digite o primeiro numero"))
     y = int(input("Digite o segundo numero"))
     Menu(x,y)
