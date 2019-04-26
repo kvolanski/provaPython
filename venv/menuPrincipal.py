@@ -9,6 +9,7 @@ def abreLojinha():
     texto = arq.read()
     print(texto)
     arq.close()
+    lojinha.menu()
 
 
 def abreCalculadora():
@@ -18,6 +19,7 @@ def abreCalculadora():
     texto = arq.read()
     print(texto)
     arq.close()
+    lojinha.menu()
 
 def relatorios():
     abreLojinha()

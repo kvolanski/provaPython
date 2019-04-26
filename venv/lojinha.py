@@ -36,6 +36,7 @@ def continuarCompra():
         menu()
     else:
         print("Obrigado pela preferencia")
+
         exit()
 
 def menuEscolha(opcao):
@@ -93,11 +94,18 @@ def excluiItens():
     for x in texto:
         print("ID - "+ str(texto.index(x)) + ": " + x)
 
+    arq.close()
+
     opcao = int(input())
     arq = open("lojinha.txt" , "w")
+
 
     for linha in texto:
         if linha.strip("") != texto[opcao]:
             arq.write(linha)
+
+    arq.close()
+
+    print("Compra excluida com sucesso!")
 
     exit()

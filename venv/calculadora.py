@@ -30,7 +30,7 @@ def validaPar(numero,texto):
         texto = texto
         salvaArquivo(texto)
     else:
-        ("Funcao de voltar ao menu aqui")
+        exit()
 
 
 def salvaArquivo(texto):

@@ -1,1 +1,1 @@
-Você somou 2 + 2 e deu 4Você subtraiu 3 - 3 e deu 0Você multiplicou 2 * 2 e deu 4
+Você somou 2 + 2 e deu 4Você subtraiu 3 - 3 e deu 0Você multiplicou 2 * 2 e deu 4Você multiplicou 2 * 2 e deu 4
